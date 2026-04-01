@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@layer components {
+  .header-hero {
+    background-image: url('./image/header/bg-hero.jpg');
+  }
+
+  .nav-link {
+    @apply max-w-6.25 max-h-6.25 md:max-w-7.5 md:max-h-7.5;
+  }
+}
+
+html,
+body {
+  height: 100%;
+  box-sizing: border-box;
+}
