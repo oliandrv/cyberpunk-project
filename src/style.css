@@ -1,5 +1,19 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Archangelsk";
+  src: url("./fonts/Archangelsk.woff") format("woff"),
+    url("./fonts/Archangelsk.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme {
+  --color-yellow: #F8F200;
+  --color-black: #000000;
+
+}
+
 @layer components {
   .header-hero {
     background-image: url('./image/header/bg-hero.jpg');
@@ -8,10 +22,26 @@
   .nav-link {
     @apply max-w-6.25 max-h-6.25 md:max-w-7.5 md:max-h-7.5;
   }
+
+  .clip-cut {
+    clip-path: polygon(50px 0%,
+        100% 0%,
+        100% calc(100% - 50px),
+        calc(100% - 50px) 100%,
+        0% 100%,
+        0% 50px);
+  }
+
+  .btn {
+    @apply px-12.5 py-2.5 md:px-12.5 md:py-4.75 bg-black text-yellow text-2xl leading-10 w-max font-bold;
+  }
+
+
 }
 
 html,
 body {
   height: 100%;
   box-sizing: border-box;
+  font-family: "Archangelsk", sans-serif;
 }

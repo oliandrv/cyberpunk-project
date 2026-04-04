@@ -1,6 +1,7 @@
 export function Header() {
-    return `
-    <header class="max-w-7xl mx-auto">
+  return `
+    <header>
+    <div class="container max-w-7xl mx-auto h-full px-0">
       <div class="flex flex-col gap-2.5 px-3 py-5  items-center justify-between md:flex-row md:px-9">
 
         <div class="max-w-50 max-h-12.5 md:max-w-72.5 md:max-h-18.5">
@@ -15,8 +16,8 @@ export function Header() {
             <a href="#" class="nav-link"> <img src="./src/image/header/twitch.svg" alt="twitch"> </a>
             <a href="#" class="nav-link"> <img src="./src/image/header/instagram.svg" alt="instagram"> </a>            
         </nav>
-
+</div>
       </div>
     </header>
-  `
+  `;
 }
