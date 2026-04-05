@@ -11,6 +11,7 @@
 @theme {
   --color-yellow: #F8F200;
   --color-black: #000000;
+  --color-white: #FFFFFF;
 
 }
 
@@ -32,16 +33,32 @@
         0% 50px);
   }
 
+  .bts-yellow {
+    @apply bg-black text-yellow
+  }
+
+  .bts-black {
+    @apply bg-yellow text-black
+  }
+
   .btn {
-    @apply px-12.5 py-2.5 md:px-12.5 md:py-4.75 bg-black text-yellow text-2xl leading-10 w-max font-bold;
+    @apply px-12.5 py-2.5 lg:px-12.5 lg:py-4.75 text-2xl leading-10 w-max font-bold cursor-pointer transition duration-300;
+  }
+
+  .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
   }
 
 
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   height: 100%;
-  box-sizing: border-box;
   font-family: "Archangelsk", sans-serif;
 }
