@@ -3,8 +3,8 @@ export function Footer() {
 <footer class="">
     <div class="flex flex-col">
     <div class="container max-w-7xl mx-auto h-full px-0">
-    <nav class="flex flex-col justify-center items-center py-6.25 px-10">
-      <ul class="flex flex-col justify-center items-center gap-6.25 py-3.75">
+    <nav class="flex flex-col justify-center items-center py-6.25 px-10 lg:flex-row lg:justify-between lg:items-center">
+      <ul class="flex flex-col justify-center items-center gap-6.25 py-3.75 lg:flex-row">
         <li class="max-w-50 max-h-12.5">
           <a href="#"><img src="./src/image/header/logo.svg" alt="logo"></a>
         </li>
@@ -12,7 +12,7 @@ export function Footer() {
           <a href="#"><img src="./src/image/footer/CD_Projekt_logo.svg" alt="CD_Projekt_logo"></a>
         </li>
       </ul>
-        <ul class="flex flex-col justify-center items-center py-6.25 gap-3.75">
+        <ul class="flex flex-col justify-center items-center py-6.25 gap-3.75 lg:flex-row">
         <li>
           <a href="#">Лицензия</a>
         </li>
