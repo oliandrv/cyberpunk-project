@@ -12,17 +12,18 @@ export function About() {
         </p>
       </div>
 
-      <div class="grid gap-8">
-        <div class="1">
-          <img src="./src/image/about/1.jpg" alt="city">
+      <div class="grid gap-8 sm:px-9 lg:px-0 lg:grid-cols-2 2xl:grid-cols-2 2xl:grid-rows-2">
+        <div class="clip-cut h-49 md:h-auto lg:col-span-1 2xl:col-start-1 2xl:row-start-1">
+          <img src="./src/image/about/1.jpg" alt="city" class="h-full w-full">
         </div>
-        <div class="2">
-          <img src="./src/image/about/2.jpg" alt="city">
+        <div class="clip-cut h-49 md:h-auto lg:col-span-1 2xl:col-start-1 2xl:row-start-2">
+          <img src="./src/image/about/2.jpg" alt="city" class="h-full w-full">
         </div>
-        <div class="3">
-          <img src="./src/image/about/3.jpg" alt="city">
+        <div class="clip-cut h-106 md:h-auto lg:col-span-2 2xl:col-start-2 2xl:row-start-1 2xl:row-span-2">
+          <img src="./src/image/about/3.jpg" alt="city" class="h-full w-full">
         </div>
       </div>
+      
     </div>
   </div>
 </section>
