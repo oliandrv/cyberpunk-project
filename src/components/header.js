@@ -16,8 +16,8 @@ export function Header() {
             <a href="#" class="nav-link"> <img src="./src/image/header/twitch.svg" alt="twitch"> </a>
             <a href="#" class="nav-link"> <img src="./src/image/header/instagram.svg" alt="instagram"> </a>            
         </nav>
-</div>
       </div>
+    </div>
     </header>
   `;
 }

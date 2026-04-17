@@ -8,15 +8,62 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Roboto";
+  src: url("./fonts/Roboto-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./fonts/Roboto-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./fonts/Roboto-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./fonts/Roboto-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./fonts/Roboto-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
 @theme {
   --color-yellow: #F8F200;
   --color-black: #000000;
   --color-white: #FFFFFF;
   --color-blue: #52BEDC;
+  --color-gray: #777777;
 
 }
 
 @layer components {
+  .font-roboto {
+    font-family: "Roboto", sans-serif;
+  }
+
   .header-hero {
     background-image: url('./image/header/bg-hero.jpg');
   }
@@ -51,6 +98,45 @@
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
   }
 
+  .upload-border {
+    position: relative;
+  }
+
+  .upload-border::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background:
+      repeating-linear-gradient(90deg, #6b7280 0 8px, transparent 8px 16px) top / 100% 1px no-repeat,
+      repeating-linear-gradient(90deg, #6b7280 0 8px, transparent 8px 16px) bottom / 100% 1px no-repeat,
+      repeating-linear-gradient(0deg, #6b7280 0 8px, transparent 8px 16px) left / 1px 100% no-repeat,
+      repeating-linear-gradient(0deg, #6b7280 0 8px, transparent 8px 16px) right / 1px 100% no-repeat;
+  }
+
+  .custom-checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #777;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    flex-shrink: 0;
+  }
+
+  .custom-checkbox:checked::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 4px;
+    height: 8px;
+    border: solid #f8ef02;
+    border-width: 0 1px 1px 0;
+    transform: translate(-50%, -58%) rotate(45deg);
+  }
 
 }
 
