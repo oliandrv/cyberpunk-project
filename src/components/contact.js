@@ -2,7 +2,7 @@ export function Contact() {
   return `
 <section class="bg-black">
     <div class="flex h-17.5 w-ful">
-        <img src="./src/image/contact/bg-w.png" alt="bg-w" class="w-full">
+        <img src="./src/image/contact/bg-w.jpg" alt="bg-w" class="w-full">
     </div>
   <div class="container max-w-7xl mx-auto h-full px-0">
   <div class="lg:flex lg:px-9 lg:gap-8">

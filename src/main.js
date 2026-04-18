@@ -5,6 +5,7 @@ import { Hero } from "./components/hero.js";
 import { Footer } from "./components/footer.js";
 import { About } from "./components/about.js";
 import { Contact } from "./components/contact.js";
+import { Benefits } from "./components/benefits.js";
 
 const app = document.querySelector("#app");
 
@@ -17,6 +18,7 @@ app.innerHTML = `
     </div>
     ${About()}
     ${Contact()}
+    ${Benefits()}
 
     ${Footer()}
   </div>
