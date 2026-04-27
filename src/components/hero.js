@@ -5,7 +5,7 @@ export function Hero() {
       <div class="flex flex-col justify-end items-end h-full md:px-9">
         <div class="bg-yellow flex flex-col justify-center items-center gap-6.25 px-3 py-7.5 lg:p-17.5 md:justify-start w-max h-max clip-cut">
           <h1 class="text-black text-center text-[30px] max-w-73.75 lg:text-[62px] lg:leading-15.5 lg:max-w-121.25">Доступно на всех платформах</h1>
-          <button class="btn bts-yellow">Узнать больше</button>
+          <button class="btn btn-yellow">Узнать больше</button>
         </div>
         </div>
       </div>

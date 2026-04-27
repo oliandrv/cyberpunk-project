@@ -37,7 +37,7 @@ export function Contact() {
           </label>
 
           <button
-            type="submit" class="btn font-roboto bts-black font-bold text-[16px] w-full md:w-fit min-w-45.5 hover:opacity-90 transition">
+            type="submit" class="btn font-roboto btn-black font-bold text-[16px] w-full md:w-fit min-w-45.5 hover:opacity-90 transition">
             Отправить
           </button>
 
