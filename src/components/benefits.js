@@ -54,7 +54,7 @@ export function Benefits() {
               </li>
             </ul>
 
-          <button class="btn btn-yellow">
+          <button class="btn btn-yellow w-full md:w-fit">
             Подробнее
           </button>
 
