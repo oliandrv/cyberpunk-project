@@ -1,0 +1,37 @@
+# Cyberpunk Project
+
+Лендинг в стиле киберпанк, созданный как учебный проект для практики современного фронтенд-стека: Vite, Tailwind CSS и JavaScript.
+
+Проект выполнен с целью отработки верстки по макету из Figma, построения простой компонентной структуры и работы с динамическими эффектами на чистом JavaScript.
+
+## Макет
+
+Проект разработан на основе Figma-дизайна:  
+https://www.figma.com/design/cyOuCcxqhxwqCrillGbcFm/Cyberpunk?node-id=0-1&p=f&t=RjMO5I85aWWPkQVI-0
+
+## Технологии
+
+- Vite
+- Tailwind CSS
+- JavaScript (Vanilla)
+- HTML
+- Figma
+
+## Возможности проекта
+
+- Адаптивная верстка (desktop / tablet / mobile)
+- Компонентная структура на JavaScript (функции для каждого блока)
+- Hero-секция с автоматической сменой фоновых изображений
+- Реализация слайдера через JavaScript (setInterval)
+- Чистая и модульная структура кода
+- Использование Tailwind CSS для стилизации
+- Верстка по макету в стиле cyberpunk
+
+## Запуск проекта
+
+```bash
+
+npm install
+npm run dev
+
+```

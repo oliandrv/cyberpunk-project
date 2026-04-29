@@ -45,13 +45,13 @@ export function Game() {
         </h3>
 
         <div class="flex flex-col gap-10 lg:gap-11.25">
-        <div class="flex gap-14 lg:gap-20">
-          <img src="./src/image/game/pc.svg" alt="PC" class="w-auto object-contain" />
-          <img src="./src/image/game/xboxone.svg" alt="Xbox" class="w-auto object-contain" />
+        <div class="flex items-center gap-14 lg:gap-20">
+          <a href="#"><img src="./src/image/game/pc.svg" alt="PC" class="w-auto object-contain" /></a>
+          <a href="#"><img src="./src/image/game/xboxone.svg" alt="Xbox" class="w-auto object-contain" /></a>
         </div>
-        <div class="flex gap-14 lg:gap-20">
-          <img src="./src/image/game/stadia.svg" alt="Stadia" class="w-auto object-contain" />
-          <img src="./src/image/game/playstation.svg" alt="PS4" class="w-auto object-contain" />
+        <div class="flex items-center gap-14 lg:gap-20">
+         <a href="#"><img src="./src/image/game/stadia.svg" alt="Stadia" class="w-auto object-contain" /></a>
+          <a href="#"><img src="./src/image/game/playstation.svg" alt="PS4" class="w-auto object-contain" /></a>
           </div>
         </div>
       </div>

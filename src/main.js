@@ -25,3 +25,26 @@ app.innerHTML = `
     ${Footer()}
   </div>
 `;
+
+
+function initHeroBackgroundSlider() {
+  const heroBlock = document.querySelector('.header-hero');
+
+  if (!heroBlock) return;
+
+  const images = [
+    './src/image/header/bg-hero.jpg',
+    './src/image/header/bg-hero2.jpg',
+    './src/image/header/bg-hero3.jpg',
+  ];
+
+  let current = 0;
+
+  setInterval(() => {
+    current = (current + 1) % images.length;
+
+    heroBlock.style.backgroundImage = `url('${images[current]}')`;
+  }, 4000);
+}
+
+initHeroBackgroundSlider();

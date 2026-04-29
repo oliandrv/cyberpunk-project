@@ -9,12 +9,12 @@ export function Header() {
         </div>
 
         <nav class="flex gap-7 md:gap-10">
-            <a href="#" class="nav-link"> <img src="./src/image/header/youtube.svg" alt="youtube"> </a>
-            <a href="#" class="nav-link"> <img src="./src/image/header/vk.svg" alt="vk"> </a>
-            <a href="#" class="nav-link"> <img src="./src/image/header/facebook.svg" alt="facebook"> </a>
-            <a href="#" class="nav-link"> <img src="./src/image/header/twitter.svg" alt="twitter"> </a>
-            <a href="#" class="nav-link"> <img src="./src/image/header/twitch.svg" alt="twitch"> </a>
-            <a href="#" class="nav-link"> <img src="./src/image/header/instagram.svg" alt="instagram"> </a>            
+            <a href="youtube.com" target="_blank" class="nav-link"> <img src="./src/image/header/youtube.svg" alt="youtube"> </a>
+            <a href="vk.ru" target="_blank" class="nav-link"> <img src="./src/image/header/vk.svg" alt="vk"> </a>
+            <a href="facebook.com" target="_blank" class="nav-link"> <img src="./src/image/header/facebook.svg" alt="facebook"> </a>
+            <a href="x.com" target="_blank" class="nav-link"> <img src="./src/image/header/twitter.svg" alt="twitter"> </a>
+            <a href="twitch.tv" target="_blank" class="nav-link"> <img src="./src/image/header/twitch.svg" alt="twitch"> </a>
+            <a href="instagram.com" target="_blank" class="nav-link"> <img src="./src/image/header/instagram.svg" alt="instagram"> </a>            
         </nav>
       </div>
     </div>
